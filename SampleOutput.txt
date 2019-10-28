@@ -1,0 +1,28 @@
+running ... 
+
+views was created successfully ! 
+making reports ...
+
+REPORET :
+
+ > What are the most popular three articles of all time?
+
+   >>> 'Candidate is jerk, alleges rival' got 338647 views
+   >>> 'Bears love berries, alleges bear' got 253801 views
+   >>> 'Bad things gone, say good people' got 170098 views
+
+
+ > Who are the most popular article authors of all time?
+
+   >>> 'Ursula La Multa' got 507594 views
+   >>> 'Rudolf von Treppenwitz' got 423457 views
+   >>> 'Anonymous Contributor' got 170098 views
+   >>> 'Markoff Chaney' got 84557 views
+
+
+ > On which days did more than 1% of requests lead to errors?
+
+   >>> on '2016-07-17' more than 0.02247130943046546440% of requests lead to errors
+
+
+ The source code for this program was wrriten by Ibraheem Alayan
