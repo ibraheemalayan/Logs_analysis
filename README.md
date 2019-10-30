@@ -66,7 +66,7 @@ If you type exit (or Ctrl-D) at the shell prompt inside the VM, you will be logg
 If you reboot your computer, you will need to run vagrant up to restart the VM
 
 _______________________
-## After installions
+## After installtions
 
 > make sure to install all the prerequisites above before continuing.
 > the program python code is written in "code.py" file .
