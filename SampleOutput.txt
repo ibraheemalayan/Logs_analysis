@@ -22,8 +22,7 @@ REPORET :
 
  > On which days did more than 1% of requests lead to errors?
 
-   >>> on '2016-07-17' more than 0.02247130943046546440% of requests lead to errors
+   >>> on '2016-07-17' more than 2.247130943046546440% of requests lead to errors
 
 
 The source code for this program was wrriten by Ibraheem Alayan
-
