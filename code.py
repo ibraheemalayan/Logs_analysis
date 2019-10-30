@@ -82,4 +82,8 @@ for r in Most_errors_days:
       "% of requests lead to errors")
 
 db.close()
-print("\n\nThe source code for this program was wrriten by Ibraheem Alayan")
+print("\n\nThe source code for this program was wrriten by Ibraheem Alayan ")
+# if you are using pep8 online to check the code style
+# make sure to copy the new line at the last of this file
+# (if you copy it from github directly you will get w292 pep warning,
+# to prevent that copy the text in the edit mode using ctrl + A)
