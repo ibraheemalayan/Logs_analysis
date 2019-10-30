@@ -38,10 +38,7 @@ top_articles = c.fetchall()
 print("REPORET :\n\n")
 print(" > What are the most popular three articles of all time?\n")
 
-Q_1_Answer_list = []
-
 for a in top_articles:
-    Q_1_Answer_list.append((a[2], a[0]))
     print("   >>> \'" + a[2] + "\' got " + str(a[0]) + " views")
 
 ######################################################################
@@ -57,10 +54,7 @@ top_authors = c.fetchall()
 
 print("\n\n > Who are the most popular article authors of all time?\n")
 
-Q_2_Answer_list = []
-
 for a in top_authors:
-    Q_2_Answer_list.append((a[0], a[1]))
     print("   >>> \'" + a[0] + "\' got " + str(a[1]) + " views")
 
 ######################################################################
@@ -82,14 +76,10 @@ Most_errors_days = c.fetchall()
 
 print("\n\n > On which days did more than 1% of requests lead to errors?\n")
 
-Q_3_Answer_list = []
-
 for r in Most_errors_days:
-    Q_3_Answer_list.append((r[0], r[1]))
     print(
-      "   >>> on \'" + str(r[0]) + "\' more than " + str(r[1]) +
+      "   >>> on \'" + str(r[0]) + "\' more than " + str(r[1]*100) +
       "% of requests lead to errors")
 
 db.close()
 print("\n\nThe source code for this program was wrriten by Ibraheem Alayan")
-
