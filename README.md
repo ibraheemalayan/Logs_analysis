@@ -1,8 +1,9 @@
 # Logs Analysis - Udacity
 ### Full Stack Web Development ND
+This project is a script that analyzes a database of website logs
 _______________________
 ## Prerequisites
-* Python 3 > [https://realpython.com/installing-python/]
+* Python 3.7 > [https://realpython.com/installing-python/]
 * Vagrant [https://www.vagrantup.com/docs/installation/]
 * VirtualBox 3 [https://www.virtualbox.org/wiki/Downloads]
 * psycopg2 [http://initd.org/psycopg/docs/install.html]
